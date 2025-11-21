@@ -1,0 +1,22 @@
+    /* Menggunakan font Space Mono untuk tampilan futuristik */
+        body {
+            font-family: 'Space Mono', monospace;
+        }
+        /* Efek klik tombol yang lebih baik */
+        .btn-calc {
+            transition: all 0.1s ease-in-out;
+            box-shadow: 0 0 5px rgba(255, 0, 255, 0.5); /* Bayangan default (Magenta) */
+        }
+        .btn-calc:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        /* Efek Neon (Modifikasi) */
+        .btn-neon-purple {
+            box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+            text-shadow: 0 0 4px #ff00ff;
+        }
+        .btn-neon-cyan {
+            box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+            text-shadow: 0 0 4px #00ffff;
+        }
